@@ -1,0 +1,60 @@
+body{margin-top: 0;margin-left: 0;margin-right: 3px;}
+.container{background-color: cornflowerblue;height: 1200px;width:100%;margin: auto;border: 2px solid orangered;}/*margin-top: 20px;*/
+header{height: 360px;float: left;width: 100%;background-color: #333333; 
+background-size: 100% 100% ; border: 2px solid orangered;;margin-top: 10px;}
+header > img{transition: 1s all;}
+header > img:hover{height: 410px;}/*הפנייה לתמונה שבתוך הכותרת לגבוהה ל410 פיקסלים*/
+nav{height: 120px;width: 100%;border: orangered 3px solid;
+/*צל בבר למעלה */
+    -webkit-box-shadow: inset 0px 14px 10px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: inset 0px 14px 10px 0px rgba(0,0,0,0.72);
+    box-shadow: inset 0px 14px 10px 0px rgba(0,0,0,0.72);}
+.widthmanue{float: right; width:62%;height: 100px;border:solid; display: flex;align-items:stretch;justify-content:space-between;
+    margin-top: 50px}
+    /*מאפייני עיצוב של טקסט בבר*/
+.widthmanue > div{padding: 8px;width: 80px;height: 80px;border-radius: 40px;border: solid;
+   display: flex; align-items: center;justify-content: center;background-color: darkgray;font-size: x-large;/*להגדיל גודל פונט*/
+font-weight: bold;/*כדי להדגיש את הפונט*/
+                                                 /*!!!אנימציה לתפריט!!!*/
+transition-property: background ,color,border;/*all מסמל על מה יפעל המעבר *//*ניתן גם לקצר ולכתוב*/
+transition-duration: 0.8s;/*משך הזמן שייקח לביצוע המעבר לרקע לבן*/
+/*ניתן לכתוב את שני השורות שלמעלה כך:ב*/
+  /*transition:1s all*/  /*ואז הוא יודע שזה בעצם זמן המעבר ושמשפיע על כל האובייקטים הקיימים רקע וטקסט*/        
+}
+    /*hover אנימציה ראשונית לכפתורי הבר באמצעות */
+   .widthmanue > div:hover{background-color:black;/*נשנה כאן את צבע הרקע ברגע שנעבור על הבר עם העכבר*/
+                            color: whitesmoke;/*נשנה כאן את צבע הטקבט בזמן המעבר*/
+                            border:whitesmoke 3px solid;/*בתכלס הבורדר ישתנה בגלל מאפיין הקולור למעלה אבל רק בשביל הדוגמא*/
+                            transform: translate(-1px, -53px);
+
+/*https://www.css3maker.com/ כדי שכשנעמוד על דיב בנב האאיקון יבצע ריחוף למעלה *//* כדי לקבל לעשות עוד מעברים יפים בקלות ממליץ להיכנס לאתר */
+transform: translate(0px, -10px);
+-webkit-transform: translate(0px, -10px);
+-moz-transform: translate(0px, -10px);
+-o-transform: translate(0px, -10px);
+-ms-transform: translate(0px, -10px);
+   }
+
+.search{background-color: darkgray;width:34%;height: 80px;float: left;border-radius: 40px;padding: 8px;border: solid;margin-top: 50px;margin-left: 15px;
+    display: flex; align-items: center;justify-content:center;} /* display: flex; align-items: center;justify-content:center;*/
+main{width: 100%;height:max-content;border: solid 10px yellow;}
+
+/*כאן נגדיל תמונות לגודל מסויים בתוך דיב מוגדר */
+
+.imagbox1{width: 76%;height: 250px;border: solid orchid 5px;display: flex;justify-content: space-around ;float:right;}
+.imagbox1>div{width: 310px;height: 200px;;margin-top: 20px;border: groove 4px; text-align: center;/*ישים את התמונות באמצע רוחב הדיב*/
+line-height:18;/*ישפיע על גובה התמונה מהשוליים*/
+transition-duration: 1s;transition-property: all;}
+/* בפעולה זאת כשנהייה עם העכבר על התמונות הם יתפרשו ל100% על הדיב שכלואים בתוכו לעומת מצבם ההתחלתי שהגרדתי בקובץ הראשי כ50%*/
+.imagbox1>div>:hover{width: 100%;height: 100%;}
+
+              /*כדי להגדיל את הדיב באופן כללי גם מחוץ למסגרת */
+
+.imagbox2{width: 22.5%;height: 800%;border: solid red 5px;justify-content: space-around;}/* כדי לקבל תפריט עומד הורדתי את הפלקס כך שהדיבים הפנימיים יתאימו למסגרת החיצונית  */
+.imagbox2>.div2{width: 310px;height: 200px;;margin-top: 20px;border:black 4px solid; text-align: center;line-height:18;}
+.imagbox2>.div2>img:hover{transform: scale(1.5,1.5);/*בטרנספורם מאפיין סקל           transform: scale(1.5,1.5)           ייתן לי להגדיל את הרוחב והגובה בזמן שהעכבר עליו*/
+}
+img{transition: 1s;}/*הזמן בעת שהיית העכבר שייקח לו לגדול בהתאם לטרנספורם שבחרתי */
+    
+
+

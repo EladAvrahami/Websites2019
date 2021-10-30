@@ -1,0 +1,19 @@
+body{direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background-color: silver;
+}
+.allsite{
+    background-color:white;
+    width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+h1 {color:rgb(61, 106, 243);}   
+
+h1,h2{
+    margin: 0;
+}
+img{float: right;
+margin: 6px;}

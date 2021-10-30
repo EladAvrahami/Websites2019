@@ -1,0 +1,35 @@
+body{background: url(starsbackground.jpg) no-repeat center;background-size: 100% 100%;
+    margin:0;font-family: Arial, Helvetica, sans-serif;}
+.bodylogo{float: left; width: 230px;height: 128px; background: url(nasalogo.png) no-repeat center;
+    background-size: 100% 90%; margin-left: 0%;}
+.header{background-color: thistle;width: 1040px;margin: 0 auto;height: 213px;position: relative;border-radius: 12px;border: 10px gray;margin-top: 20px}
+.header h1{text-shadow: 2px 0 20px #3D1FFF;font: size 100px}/*עוד אתר עם טמפלטים של עיצובים : https://css3generator.com/*/
+
+.txt{position: absolute; LEFT:360PX; TOP:25PX;width:270px;}
+.mainbox{width: 1050px;height: 1065px;margin: 0 auto;
+position: relative;direction: rtl;absolute;;top: 10px;}
+.widthbar{width: auto;height:73px ;background-color: gray;position: absolute;left:0px;top: 135px;border-radius: 12px;border-bottom:8px solid rgb(104, 26, 104);}
+.thwidthsearch{width: 30%;height: 73px;border-left:8px solid rgb(104, 26, 104);border-radius: 8px;
+}
+.thwidth{width: 200px;height: 73px;
+}/*מסגרת למטה */
+.heightbar{float: left;margin-left: 0%;width:30%;height: 500px;}
+.trhb{background-color: gray;border-radius: 12px ;}
+.thhb{height:122px;width:300px;border-left: 10px  solid rgb(104, 26, 104);border-radius: 10px;}
+.content{direction: ltr;padding-left: 5px;background-color: thistle; height: 1070px; width: 720PX; margin-left: 0%;border: outset 4px gray;border-radius: 22px;}
+
+.detaildiv{background-color: rgb(104, 26, 104);height: 150px;border-radius: 5px;margin-top: 25px;
+/*אתר שנותן וואריאציות של עיצובים מעתיקים את הקוד מהאתר ומדביקים לשורה הרצויה בקוד שלנו : https://www.cssmatic.com/box-shadow */ 
+-webkit-box-shadow: inset 1px -60px 14px -30px rgba(0,0,0,0.52);
+-moz-box-shadow: inset 1px -60px 14px -30px rgba(0,0,0,0.52);
+box-shadow: inset 1px -60px 14px -30px rgba(0,0,0,0.52);/*עד פה נותן צל*/
+/*אתר שנותן וואריציות של צבעים ועיצובים https://www.colorzilla.com/gradient-editor/*/
+background: rgb(252,255,244);
+background: -moz-linear-gradient(top,  rgba(252,255,244,1) 0%, rgba(186,117,182,1) 0%, rgba(179,190,173,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(186,117,182,1) 0%,rgba(179,190,173,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(252,255,244,1) 0%,rgba(186,117,182,1) 0%,rgba(179,190,173,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+
+
+
+}

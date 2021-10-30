@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link href="basCss.css" rel="stylesheet">
+</head>
+<body dir="rtl">
+    <h1>כניסה למערכת</h1>
+    <p> על מנת להיכנס לחשבון יש להקיש פרטים מזהים: </p>
+    <form action="thankyou.html" method="GET"><!--במקרה הזה יפתח את עצמו יש לשנות בהתאם לדף שנרצה שיפתח-->
+        <table>
+            <tr>
+                <th align="right"><label>שם משתמש:</label> </th>
+                <td><input type="text" name="username" required></td>
+            </tr>
+            <tr>
+                <th align="right"><label>סיסמה:</label> </th>
+                <td><input type="text" name="passwored" required></td>
+            </tr>
+            <tr>
+                <th align="right"><label>קוד מזהה:</label> </th>
+                <td><input type="text" name="idcode" required></td>
+            </tr>
+            <tr>
+                <td align="right"><input type="reset"></td><!--איפוס הדף -->
+            </tr>
+    
+            <tr>
+                <th align="right"><button type="submit">לכניסה לאתר</button></th>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+    <form action="exerciseFome.html" method="GET">
+        <br>
+        <button>להרשמה לאתר לחץ כאן</button> 
+
+    </form>
+
+</body>
+</html>

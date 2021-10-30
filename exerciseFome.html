@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOIN US</title>
+</head>
+<body dir="rtl">
+    <h1>טופס הרשמה</h1>
+    <form action="thankyou.html" method="GET">
+      <table>
+            <tr>
+                <td> <label dir="rtl">שם פרטי:</label> </td>
+                 <td> <input type="text" name="praivetName" required> </td>
+            </tr>
+            <br>
+            <tr>
+                <td> <label dir="rtl">שם משפחה:</label></td>
+                <td> <input type="text" name="lastName" required> </td>
+            </tr>
+            <tr>
+                <td> <label dir="rtl"></label>מס טלפון:</label></td>
+                <td> <input type="number" name="phone" required> </td>
+            </tr>
+            <tr>
+                <td> <label dir="rtl">מייל:</label></td> 
+                <td><input type="email" name="mail" required> </td>
+            </tr>
+            <tr>
+                <td> <label dir="rtl">מין:</label></td> 
+                <td colspan="3" align="ltr"> 
+                    <input type="radio" name="sex">אחר...
+                    <input type="radio" name="sex">נקבה 
+                    <input type="radio" name="sex">זכר
+                 </td>  
+            </tr>
+            <tr>
+                <td>באילו קורסים אתה מתעניין ?</td>
+                <td> 
+                    <input type="checkbox" name="musice" dir="rtl"> Musice </td>
+            </tr>
+             <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="fullstack" dir="rtl">Full stack</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td> <input type="checkbox" name="datascience" dir="rtl">Big data </td>
+                 </td>  
+            </tr>
+            <tr>
+                <td>תבחר מאכל:
+               <td> <select name="food">
+                   
+                    <option value="pizza">פיצה</option>
+                    <option value="lolipop">סוכריה</option>
+                    <option value="humburger">המבורגר</option>
+                </select>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td><label>בקצרה על עצמך:</label></td>
+                <td><textarea name="about" rows="5" cols="50"dir="rtl" >עד 100 מילים</textarea></td>
+                <!--נשתמש בקולס כדי לקבוע את כמות העמודות בריבוע הטקסט כלומר רוחבו-->
+            </tr>
+            <tr>
+                <td>
+                   <button >סיום להרשמה</button>
+                </td>
+            </tr>
+      </table>  
+    </form>
+    <forme action="Login.html">
+        <table>
+            <tr>
+                <td>
+                    <button>כניסת משתמש קיים </button>
+                </td>
+            </tr>
+        </table>
+    </forme>
+</body>
+</html>
